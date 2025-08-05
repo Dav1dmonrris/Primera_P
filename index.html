@@ -1,182 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
-<!--  *** Datos ocultos   ***-->
-<!--  *** En esta zona deberian ir los datos que no se muestran al cliente ***-->
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="Información sobre los principales lenguajes de programación y sus paradigmas">
     <link rel="stylesheet" href="CSS/estilos.css">
-
-    <title>Lenguajes Programacion</title>
-
+    <title>Guía de Lenguajes de Programación</title>
 </head>
 
-<!--  ***  Cuerpo de la pagina  ***-->
-<!--  *** Aqui incia todo el codigo de la pagina *** -->
-
 <body>
- 
-  <!--  *** Cabecera   ***-->
-  <!--  ***  Aqui se agregan secciones a la cabecera   ***-->
+    <!-- Cabecera con navegación principal -->
+    <header>
+        <nav class="main-nav">
+            <a href="#1Seccion">Inicio</a>
+            <a href="#2Seccion">Lenguajes</a>
+            <a href="#3Seccion">Paradigmas</a>
+            <a href="#footer">Contacto</a>
+        </nav>
+    </header>
 
-   <header>
-     <a href="">Java</a>
+    <main>
+        <!-- Sección principal -->
+        <section id="1Seccion" class="hero-section">
+            <h1>Lenguajes de programación</h1>
+            <p>Los lenguajes de programación son conjuntos de reglas y sintaxis que permiten a los programadores escribir código fuente para desarrollar software, scripts o aplicaciones. Estos lenguajes proporcionan un conjunto de instrucciones que se traducen en un código ejecutable que la computadora puede entender y ejecutar.</p>
+            
+            <div class="quick-nav">
+                <h2>Temas principales:</h2>
+                <ol>
+                    <li><a href="#1Seccion">Introducción a lenguajes</a></li>
+                    <li><a href="#2Seccion">Lenguajes más populares</a></li>
+                    <li><a href="#3Seccion">Paradigmas de programación</a></li>
+                </ol>
+            </div>
+        </section>
 
-     <a href="">C</a>
+        <!-- Sección de lenguajes -->
+        <section id="2Seccion" class="languages-section">
+            <h2>Lenguajes de programación más populares</h2>
+            
+            <div class="language-grid">
+                <article class="language-card">
+                    <h3>C</h3>
+                    <img src="Imagenes/CPL.png" alt="Logo de C" loading="lazy">
+                    <p>Un lenguaje de programación de propósito general que ha sido ampliamente utilizado y ha influido en el diseño de muchos otros lenguajes.</p>
+                </article>
+                
+                <article class="language-card">
+                    <h3>C++</h3>
+                    <img src="Imagenes/Cplusplus.jpg" alt="Logo de C++" loading="lazy">
+                    <p>Una extensión del lenguaje C que agrega características de programación orientada a objetos.</p>
+                </article>
+                
+                <article class="language-card">
+                    <h3>Java</h3>
+                    <img src="Imagenes/JAVA.jpg" alt="Logo de Java" loading="lazy">
+                    <p>Diseñado para ser independiente de la plataforma, lo que significa que el código Java puede ejecutarse en diferentes sistemas operativos sin modificaciones.</p>
+                </article>
+                
+                <article class="language-card">
+                    <h3>Python</h3>
+                    <img src="Imagenes/lenguajeJava.jfif" alt="Logo de Python" loading="lazy">
+                    <p>Lenguaje de alto nivel con sintaxis simple y legible, utilizado para desarrollo web, ciencia de datos y automatización.</p>
+                </article>
+                
+                <article class="language-card">
+                    <h3>JavaScript</h3>
+                    <img src="Imagenes/jv_script.png" alt="Logo de JavaScript" loading="lazy">
+                    <p>Principalmente utilizado en el desarrollo web para agregar interactividad a las páginas.</p>
+                </article>
+                
+                <article class="language-card">
+                    <h3>C#</h3>
+                    <img src="Imagenes/csharp.png" alt="Logo de C#" loading="lazy">
+                    <p>Desarrollado por Microsoft, comúnmente utilizado en aplicaciones Windows y desarrollo de juegos con Unity.</p>
+                </article>
+            </div>
+        </section>
 
-     <a href="Pagina2.html">Inicio</a>
+        <!-- Sección de paradigmas -->
+        <section id="3Seccion" class="paradigms-section">
+            <h2>Paradigmas de programación</h2>
+            
+            <div class="paradigm-list">
+                <article class="paradigm-card">
+                    <h3>Programación Imperativa</h3>
+                    <p>Se enfoca en describir detalladamente los pasos que el programa debe tomar para alcanzar el estado deseado.</p>
+                    <p><strong>Ejemplos:</strong> C, Pascal</p>
+                </article>
+                
+                <article class="paradigm-card">
+                    <h3>Orientada a Objetos (OOP)</h3>
+                    <p>Se basa en el concepto de "objetos" que encapsulan datos y comportamientos.</p>
+                    <p><strong>Ejemplos:</strong> Java, C++, Python, Ruby</p>
+                </article>
+                
+                <article class="paradigm-card">
+                    <h3>Programación Funcional</h3>
+                    <p>Se centra en funciones matemáticas y evita el cambio de estado y datos mutables.</p>
+                    <p><strong>Ejemplos:</strong> Haskell, Lisp, Erlang</p>
+                </article>
+                
+                <article class="paradigm-card">
+                    <h3>Programación Lógica</h3>
+                    <p>Utiliza reglas y hechos para derivar conclusiones lógicas.</p>
+                    <p><strong>Ejemplos:</strong> Prolog</p>
+                </article>
+                
+                <article class="paradigm-card">
+                    <h3>Programación Declarativa</h3>
+                    <p>Describe qué debe hacerse, más que cómo hacerlo.</p>
+                    <p><strong>Ejemplos:</strong> Haskell, Prolog</p>
+                </article>
+                
+                <article class="paradigm-card">
+                    <h3>Programación Estructurada</h3>
+                    <p>Utiliza construcciones como secuencias, bucles y selecciones para mejorar claridad.</p>
+                    <p><strong>Ejemplos:</strong> C, Pascal</p>
+                </article>
+            </div>
+        </section>
+    </main>
 
-     <a href="">C++</a>
-
-     <a href="">Python</a>
-
-   </header>
-
-     <!--  ***  Primera seccion ***-->
-     <!--  *** se agrega el tema de la pagina ***-->
-
-     <Section id="1Seccion">
-
-        <h1>Lenguajes de programacion</h1><br>
-
-           <p>Los lenguajes de programación son conjuntos de reglas y sintaxis que permiten a los programadores escribir código fuente para desarrollar software, scripts o aplicaciones. Estos lenguajes proporcionan un conjunto de instrucciones que se traducen en un código ejecutable que la computadora puede entender y ejecutar. Existen muchos lenguajes de programación diferentes, cada uno con sus propias características y usos específicos. Algunos de los lenguajes de programación más comunes incluyen:</p>
-
-     </Section> 
-
-   <!--  ***  Menú  ***-->
-   <!--  *** Este es el menu de la primera hoja ***-->
-   
-   <main>
-
-    <h2>Temas:</h2>
-
-     <nav>
-
-       <ol>
-
-        <li> <a href="#1Seccion">Lenguajes de programacion</a></li>
-        <li> <a href="#2Seccion">¿Cuantos lenguajes de programacion hay?</a></li>
-        <li> <a href="#3Seccion">Paradigmas de programacion</a></li>
-        <li> <a href="#1Seccion">Lenguajes de programacion</a></li>
-        <li> <a href="#1Seccion">Lenguajes de programacion</a></li>
-
-       </ol>
-
-     </nav>
-    
-<section id="2Seccion">
-    <h3> ¿Cuantos lesnguajes de programacion hay?</h3>
-
-    
-      
-      <ul>
-        
-        <li><b>C:</b> Un lenguaje de programación de propósito general que ha sido ampliamente utilizado y ha influido en el diseño de muchos otros lenguajes.</li>
-        <br>
-        <img src="lenguajec.jfif" alt="C" class="Especial">
-        
-        <li><b>C++:</b> Una extensión del lenguaje C que agrega características de programación orientada a objetos.</li>
-        <br>
-        <img src="lenguajec++.jfif" alt="C++">
-        
-        <li><b>Java:</b> Un lenguaje de programación de propósito general diseñado para ser independiente de la plataforma, lo que significa que el código Java puede ejecutarse en diferentes sistemas operativos sin modificaciones.</li>
-        <br>
-        <img src="lenguajepy.jfif" alt="Python" class="Especial">
-       
-        <li><b>Python:</b> Un lenguaje de alto nivel con una sintaxis simple y legible, utilizado para una variedad de propósitos, incluyendo desarrollo web, ciencia de datos, automatización y más.</li>
-        <br>
-        <img src="Imagenes/lenguajeJava.jfif" alt="Java">
-        
-        <li><b>JavaScript:</b> Un lenguaje de programación principalmente utilizado en el desarrollo web para agregar interactividad a las páginas.</li>
-        <br>
-        <img src="Imagenes/lenguajeJs.jfif" alt="JavaScript" class="Especial">
-        
-        <li><b>C# (C Sharp):</b> Un lenguaje de programación desarrollado por Microsoft, comúnmente utilizado en el desarrollo de aplicaciones para la plataforma Windows y en el desarrollo de juegos con el motor Unity.</li>
-        <br>
-        <img src="Imagenes/Lenguajec#.jfif" alt="C#">
-       
-        <li><b>PHP:</b> Un lenguaje de script ampliamente utilizado para el desarrollo web del lado del servidor.</li>
-        <br>
-        <img src="Imagenes/Lenguajephp.jfif" alt="PHP" class="Especial">
-        
-        <li><b>Ruby:</b> Un lenguaje de programación interpretado y de alto nivel, conocido por su elegancia y facilidad de uso.</li>
-        <br>
-        <img src="Imagenes/lenguajeruby.jfif" alt="Ruby">
-        
-        <li><b>Swift:</b> Un lenguaje de programación desarrollado por Apple para crear aplicaciones iOS y macOS.</li>
-        <br>
-        <img src="Imagenes/lenguajeswift.jfif" alt="Swift" class="Especial">
-        
-        <li><b>Go (Golang):</b> Un lenguaje de programación desarrollado por Google, diseñado para ser eficiente y fácil de leer.</li>
-        <br>
-        <img src="Imagenes/lenguajeGolang.jfif" alt="Golang">
-        
-      </ul>
-
-  
-
-    </section>
-
-   </main>
-    <section id="3Seccion">
-    <h4>Paradigmas de programacion</h4>
-
-    
-    
-       
-       <ol>
-         
-         <li><b>Programación Imperativa:</b>
-
-         Descripción: También conocida como programación procedural, se enfoca en describir detalladamente los pasos que el programa debe tomar para alcanzar el estado deseado.
-         Ejemplos: C, Pascal. </li>
-         <li><b>Programación Orientada a Objetos (OOP):</b>
-         
-
-         Descripción: Se basa en el concepto de "objetos", que son instancias de clases que encapsulan datos y comportamientos. Se centra en la organización de software alrededor de entidades que tienen propiedades y métodos.
-         Ejemplos: Java, C++, Python, Ruby. </li>
-         <li> <b>Programación Funcional:</b>
-
-         Descripción: Se centra en funciones matemáticas y en la evaluación de expresiones. Evita el cambio de estado y datos mutables, favoreciendo la inmutabilidad.
-         Ejemplos: Haskell, Lisp, Erlang.</li>
-         <li><b>Programación Lógica:</b>
-
-         Descripción: Se basa en la lógica matemática para resolver problemas. Utiliza reglas y hechos para derivar conclusiones lógicas.
-         Ejemplos: Prolog.</li>
-          <li> <b>Programación Declarativa:</b>
-
-         Descripción: Se centra en describir qué debe hacerse, más que en cómo hacerlo. Incluye la programación funcional y la programación lógica.
-         Ejemplos: Haskell, Prolog.</li>
-
-         <li><b>Programación Estructurada:</b>
-
-         Descripción: Se enfoca en estructurar el código utilizando construcciones como secuencias, bucles y selecciones para mejorar la claridad y mantenibilidad.
-         Ejemplos: C, Pascal.</li>
-     
-       </ol>
-
-    
-
-    </section>
-
-    <!--  ***  Pie de pagina  ***--> 
-    <!--  *** Se agregan datos de la empresa ***-->
-   
-   <footer>
-
-      <nav> 
-
-      <a href="">Contactanos</a>
-      <a href="">Conocenos</a>
-      
-      </nav>
-
-   </footer> 
-
+    <!-- Pie de página -->
+    <footer id="footer">
+        <div class="footer-content">
+            <nav class="footer-nav">
+                <a href="#1Seccion">Inicio</a>
+                <a href="#2Seccion">Lenguajes</a>
+                <a href="#3Seccion">Paradigmas</a>
+                <a href="mailto:contacto@programacion.com">Contacto</a>
+                <a href="#" aria-label="Política de privacidad">Privacidad</a>
+            </nav>
+            <p class="copyright">&copy; 2023 Guía de Lenguajes de Programación. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
-
 </html>
