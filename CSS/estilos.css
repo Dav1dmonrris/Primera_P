@@ -23,13 +23,33 @@ body {
 header {
   color: #fff;
   background: linear-gradient(90deg, #d79e0c, #d76b47);
-  padding: 20px;
+  padding: 5px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 0 20px;
+  margin: 0 20px 30px;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.main-nav a {
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.main-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
 }
 
 /* ==================== */
@@ -79,7 +99,7 @@ a {
 
 a:hover {
   color: #d76b47;
-  text-decoration: underline;
+
 }
 
 img {
